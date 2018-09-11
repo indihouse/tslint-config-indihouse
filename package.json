@@ -6,6 +6,9 @@
   "repository": "ssh://git@bitbucket.sigfox.com:7999/cdop/tslint-config-sigfox.git",
   "version": "0.0.0",
   "main": "index.js",
+  "files": [
+    "rules/**/*.js"
+  ],
   "scripts": {
     "precommit": "lint-staged"
   },

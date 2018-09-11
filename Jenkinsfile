@@ -82,8 +82,6 @@ pipeline {
         branch 'master'
       }
       steps {
-        // Build application
-        sh "yarn build"
         // Configure git
         sh "git config user.name 'CGLO Jenkins'"
         sh "git config user.email cglo-jenkins@sigfox.com"
