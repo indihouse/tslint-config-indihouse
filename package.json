@@ -1,0 +1,31 @@
+{
+  "name": "tslint-config-sigfox",
+  "description": "Sigfox's base TSLint config",
+  "license": "MIT",
+  "author": "Bastien Arata <bastyen.a@gmail.com>",
+  "repository": "ssh://git@bitbucket.sigfox.com:7999/cdop/tslint-config-sigfox.git",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "1.13.3",
+    "tslint-eslint-rules": "5.4.0"
+  },
+  "devDependencies": {
+    "eslint": "5.5.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.2",
+    "prettier": "1.14.2",
+    "prettier-package-json": "2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "comma-dangle": 0
+    }
+  }
+}
