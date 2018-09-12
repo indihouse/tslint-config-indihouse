@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Bastien Arata <bastyen.a@gmail.com>",
   "repository": "ssh://git@bitbucket.sigfox.com:7999/cdop/tslint-config-sigfox.git",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "files": [
     "configs/**/*.js",
