@@ -1,9 +1,9 @@
 {
-  "name": "tslint-config-sigfox",
-  "description": "Sigfox's base TSLint config",
+  "name": "tslint-config-indihouse",
+  "description": "Indihouse's base TSLint config",
   "license": "MIT",
   "author": "Bastien Arata <bastyen.a@gmail.com>",
-  "repository": "ssh://git@bitbucket.sigfox.com:7999/cdop/tslint-config-sigfox.git",
+  "repository": "https://git.indi.house/bastien/tslint-config-indihouse.git",
   "version": "0.2.1",
   "main": "index.js",
   "files": [
