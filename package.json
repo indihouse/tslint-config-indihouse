@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Bastien Arata <bastyen.a@gmail.com>",
   "repository": "https://git.indi.house/bastien/tslint-config-indihouse.git",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "main": "index.js",
   "files": [
     "configs/**/*.js",
