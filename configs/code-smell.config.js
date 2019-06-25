@@ -1,25 +1,31 @@
 module.exports = {
-  'no-conditional-assignment': true,
-  'no-constant-condition': true,
-  'no-empty': [true, 'allow-empty-catch'],
-  'no-empty-character-class': true,
-  'no-ex-assign': true,
-  'no-extra-boolean-cast': true,
-  'no-invalid-regexp': true,
-  'ter-no-irregular-whitespace': [true],
-  'ter-no-sparse-arrays': [true],
-  'no-unsafe-finally': true,
-  'use-isnan': true,
-  'valid-jsdoc': [
-    true,
-    { requireParamType: false, requireReturn: false, requireReturnType: false }
-  ],
-  'valid-typeof': true,
-  'cyclomatic-complexity': [true, 11],
-  'no-arg': true,
-  'no-eval': true,
-  'ter-no-script-url': true,
-  'no-shadowed-variable': true,
-  'no-use-before-declare': true,
-  'no-static-this': true
+  'no-conditional-assignment': { severity: 'default' },
+  'no-constant-condition': { severity: 'default' },
+  'no-empty': { severity: 'default', options: ['allow-empty-catch'] },
+  'no-empty-character-class': { severity: 'default' },
+  'no-ex-assign': { severity: 'default' },
+  'no-extra-boolean-cast': { severity: 'default' },
+  'no-invalid-regexp': { severity: 'default' },
+  'ter-no-irregular-whitespace': { severity: 'default' },
+  'ter-no-sparse-arrays': { severity: 'default' },
+  'no-unsafe-finally': { severity: 'default' },
+  'use-isnan': { severity: 'default' },
+  'valid-jsdoc': {
+    severity: 'default',
+    options: [
+      {
+        requireParamType: false,
+        requireReturn: false,
+        requireReturnType: false
+      }
+    ]
+  },
+  'valid-typeof': { severity: 'default' },
+  'cyclomatic-complexity': { severity: 'default', options: [11] },
+  'no-arg': { severity: 'default' },
+  'no-eval': { severity: 'default' },
+  'ter-no-script-url': { severity: 'default' },
+  'no-shadowed-variable': { severity: 'default' },
+  'no-use-before-declare': { severity: 'default' },
+  'static-this': { severity: 'default' }
 };
